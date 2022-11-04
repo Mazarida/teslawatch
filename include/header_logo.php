@@ -1,0 +1,1 @@
+<img class="img-fluid" id="main_page_logo" src="<?=SITE_TEMPLATE_PATH.'/img/logoBlue.png'?>" alt="logo">

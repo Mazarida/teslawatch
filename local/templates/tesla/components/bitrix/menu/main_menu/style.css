@@ -1,0 +1,9 @@
+.nav-pills > .nav-link.wide {
+    text-decoration: none;
+    border-radius: 1px;
+}
+.nav-pills > .nav-link.wide.active {
+    background-color: #0e54b9;
+    color: white;
+    border: 0;
+}

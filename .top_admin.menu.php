@@ -1,0 +1,46 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Главная", 
+		"/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Пользователи",
+		"/users/",
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Отчеты",
+		"/reports/",
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Креативы",
+		"/creatives/",
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Сообщения", 
+		"/messages/",
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Рассылки",
+		"/mailing/",
+		Array(),
+		Array(),
+		""
+	)
+);
+?>

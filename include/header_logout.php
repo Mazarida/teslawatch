@@ -1,0 +1,1 @@
+<img class="img-fluid imgExit" src="<?=SITE_TEMPLATE_PATH.'/img/exit.png'?>" alt="Выход">

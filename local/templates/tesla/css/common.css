@@ -1,0 +1,363 @@
+@font-face {
+    font-family: 'ProximaSBI';
+    src: url('../fonts/Mark Simonson - Proxima Nova Condensed Semibold Italic.otf');
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ProximaSB';
+    src: url('../fonts/Mark Simonson - Proxima Nova Condensed Semibold.otf');
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ProximaR';
+    src: url('../fonts/12093.ttf');
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ProximaB';
+    src: url('../fonts/11096.otf');
+    font-style: normal;
+}
+
+input::placeholder { color: white;}
+
+input[type="password"] { 
+    background-color: rgba(0,0,0,0); 
+    color: white;
+    border: none; 
+    border-bottom: 2px solid; 
+    border-radius: 0px;  
+    font-size: 1.3rem;
+   }
+   input[type="login1"]::-moz-placeholder {
+    color: white; /* Цвет подсказывающего текста */
+       background-color: rgba(0,0,0,0); 
+   }
+   input[type="password"]::-webkit-input-placeholder { color: white; background-color: rgba(0,0,0,0); }
+   input[type="password"]:-ms-input-placeholder { color: white;background-color: rgba(0,0,0,0);  }
+   input[type="password"]::-ms-input-placeholder { color: white; background-color: rgba(0,0,0,0); }
+   input[type="password"]::placeholder { color: white; background-color: rgba(0,0,0,0); } 
+input[type="password"]:focus{
+    background-color: rgba(0,0,0,0); 
+    color: white;
+    box-shadow: none;
+}
+input[type="password"]:active{
+    background-color: rgba(0,0,0,0); 
+    color: white;
+}
+
+
+input[type="text"] { 
+    background-color: rgba(0,0,0,0); 
+    color: white;
+    border: none; 
+    border-bottom: 2px solid; 
+    border-radius: 0px;  
+    font-size: 1.3rem;
+   }
+   input[type="login1"]::-moz-placeholder {
+    color: white; /* Цвет подсказывающего текста */
+       background-color: rgba(0,0,0,0); 
+   }
+   input[type="text"]::-webkit-input-placeholder { color: white; background-color: rgba(0,0,0,0); }
+   input[type="text"]:-ms-input-placeholder { color: white;background-color: rgba(0,0,0,0);  }
+   input[type="text"]::-ms-input-placeholder { color: white; background-color: rgba(0,0,0,0); }
+   input[type="text"]::placeholder { color: white; background-color: rgba(0,0,0,0); } 
+input[type="text"]:focus{
+    background-color: rgba(0,0,0,0); 
+    color: white;
+    box-shadow: none;
+}
+input[type="text"]:active{
+    background-color: rgba(0,0,0,0); 
+    color: white;
+}
+
+input[type="submit"]:active{
+    background-color: #abcdff; 
+    color: white;
+}
+
+input[type="submit"]{color: #0f54b9;}
+
+input[type="submit"]:focus{color: #0f54b9;}
+
+.nav-btn{
+    background-color: #e3e3e3;
+    color: black;
+    font-size: inherit;
+    border-radius: 2px; !important
+}
+.navbtns{
+    border-bottom: 1.5px solid #0e54b9;
+
+}
+.imgExit{
+    width: 75%;
+}
+.formlbl{
+    background-color: #f1f1f1;
+    border: 1px solid #d9d9d9;
+    border-radius: 1px;
+    
+}
+.forminpt{
+        border-radius: 1px;
+    border-left: none;
+    font-size: inherit;
+
+}
+.btnacc{
+    border: none;
+    border-radius: 1px;
+    
+}
+.btnchange{
+    background: #e7eff8;
+    
+}
+.btnsave{
+    background: #0f54b9;
+    color: white;
+}
+nav{
+    font-size: inherit;
+}
+
+
+
+
+
+@media (max-width: 575.98px) {  article{  font-size: 0.6rem; !important
+                letter-spacing: 1rem; !important
+    }
+    #VKP{
+        height: 41px;
+    }
+    #FBP{
+        height: 40.5px;
+    }
+     .BBText{font-size: 1.8rem;}
+    .bluebox{font-size: 0.8rem;}
+    nav{font-size: 0.9rem; !important}
+.sms{font-size: 0.8rem;}
+    .sms1{font-size: 0.65rem;}
+    .sms3{font-size: 0.53rem;}
+        .lineH{line-height: normal;}
+    .input-group-text{font-size: 0.65rem;}
+        .form-control{font-size: 0.60rem;}
+    .sText{font-size: 0.9rem;}
+    .sText2{font-size: 0.7rem;}
+            .sText2{font-size: 0.8rem;}
+
+
+.tableU{font-size: 0.55rem;
+        }
+    
+}
+    
+
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    article{  font-size: 0.8rem; !important
+                letter-spacing: 1rem; !important
+    }
+    #VKP{
+        height: 41px;
+    }
+    #FBP{
+        height: 40.5px;
+    }
+    .sms3{font-size: 0.65rem;}
+    .BBText{font-size: 2.5rem;}
+    .bluebox{font-size: 1.1rem;}
+        .input-group-text{font-size: 1rem;}
+    .form-control{font-size: 1rem;}
+    .sText{font-size: 1rem;}
+        .sText2{font-size: 0.8rem;}
+        .sText2{font-size: 0.7rem;}
+
+    nav{font-size: 0.9rem; !important} 
+.sms{font-size: 0.8rem;}
+    .sms1{font-size: 0.65rem;}
+    .tableU{font-size: 0.60rem;
+        }
+
+            .lineH{line-height: 23px;}
+
+    
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+ 
+    article{  font-size: 0.7rem; !important
+                letter-spacing: 1rem; !important
+    }
+    nav{font-size: 0.9rem; !important}
+    .BBText{font-size: 1.7rem;}
+    .bluebox{font-size: 0.656rem;}
+    .sms{font-size: 1rem;}
+    .sms1{font-size: 0.85rem;}
+    .tableU{font-size: 0.75rem;}
+    .sms3{font-size: 0.6rem;}
+    .lineH{line-height: 23px;}
+    .sText{font-size: 1rem;}
+        .sText2{font-size: 0.8rem;}
+            .sText2{font-size: 0.7rem;}
+
+
+    
+    
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+article{  font-size: 0.8rem; !important}
+    nav{font-size: 0.8rem; !important}
+    .BBText{font-size: 2.2rem;}
+    .bluebox{font-size: 0.8rem;}
+    .sms{font-size: 1rem;}
+    .sms1{font-size: 0.85rem;}
+    .sms3{font-size: 0.8rem;}
+    .tableU{font-size: 0.85rem;
+        }
+    .lineH{line-height: 20px;}
+    .sText{font-size: 1rem;}
+        .sText2{font-size: 0.8rem;}
+        .sText2{font-size: 0.8rem;}
+
+    
+ }
+
+@media (min-width: 1200px) { 
+    .headTable{font-size: 0.9rem;}
+    article{  font-size: 0.8rem; !important}
+    nav{font-size: 0.9rem; !important} 
+    .BBText{font-size: 2.5rem;}
+    .bluebox{font-size: 1.1rem;}
+    .sms{font-size: 1rem;}
+    .sms1{font-size: 0.85rem;}
+    
+    .img-fluid2{min-height: 70px; min-width: 100px;}
+    .tableU{font-size: 0.85rem;
+        }
+    .sText{font-size: 1rem;}
+        .sText2{font-size: 0.8rem;}
+        .sText3{font-size: 1rem;}
+
+    
+ }
+.bluebox{
+    background-color: #0e54b9;
+    border: 1px solid #0e54b9;
+    
+    color: white;
+}
+
+.BBText{
+    
+    line-height: 40px;
+}
+input[type="texter"]{
+    background-color: #eee; 
+    color: black;
+    border-radius: 1px;
+    border-color: #ddd; 
+}
+input[type="texter"]::placeholder{
+    
+}
+.inBig::placeholder{color: black;}
+  .inBig::-moz-placeholder {
+    color: black; /* Цвет подсказывающего текста */
+       background-color: rgba(0,0,0,0); 
+   }
+   .inBig::-webkit-input-placeholder { color: black; background-color: rgba(0,0,0,0); }
+.inBig:-ms-input-placeholder { color: black; background-color: rgba(0,0,0,0);  }
+   .inBig::-ms-input-placeholder { color: black; background-color: rgba(0,0,0,0); }
+.inBig::placeholder { color: black; background-color: rgba(0,0,0,0); } 
+.statselect{
+    font-size: 1.5rem;
+    border: none;
+    box-shadow: none;
+}
+.statselect:active{
+    border: none;
+
+}
+
+.statselect:focus{
+    border: none;
+    box-shadow: 0; !important
+    font-family: 'ProximaR';    
+}
+.tHead{ background-color: #0e54b9;
+color: white;
+ font-family: 'ProximaR';
+}
+
+.sms{
+    background-color: #eee;
+    font-family: 'ProximaSB'; 
+    border: 1px solid #ddd;
+}
+.sms2{
+        font-family: 'ProximaR'; 
+    border: 1px solid #ddd;
+
+}
+
+.smsContent{
+    background-color: #eee;
+}
+.smsTitle{
+    color: #888;
+}
+#frame{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 53vh;
+}
+.crea{
+    font-size: 1rem;
+}
+
+.btnMain{
+    color: black;
+    background: #e3e3e3;
+    border: none;
+    border-radius: 1px;
+}
+.active{
+    background: white;
+        border: 1px solid #bbb;
+
+}
+.btnMain:focus{
+    border: 1px solid #bbb;
+}
+
+#container{
+    min-height: 100px;
+    
+}
+.dot{
+    font-size: 10rem;
+    line-height: 5px;
+    color: #74b943;
+}
+
+.infoM{
+    background-color: #f4f4f4;
+}
+#timeline{
+    /*width: ;*/
+    height: 230px; 
+}
+.ellips{
+    width: 16%;
+}
